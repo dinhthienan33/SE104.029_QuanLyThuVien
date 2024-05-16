@@ -46,7 +46,7 @@ namespace QuanLyThuVien
             {
                 if (Convert.ToInt32(txtMKMoi.Text.Trim().Length) != Convert.ToInt32(txtMKMoi.Text.Length))
                 {
-                    MessageBox.Show("Mật khẩu mới có ký tự không hợp lệ. Vui lòng nhập lại", "Thông Báo");
+                    MessageBox.Show("Mật khẩu mới có ký tự không hợp lệ. Vui lòng nhập lại!!!!", "Thông Báo");
                     return;
                 }
                 if (Convert.ToInt32(txtMKMoi.Text.Trim().Length) < 6)

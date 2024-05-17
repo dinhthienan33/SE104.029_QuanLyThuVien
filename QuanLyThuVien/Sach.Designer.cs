@@ -460,7 +460,7 @@
             this.btnGhi.Name = "btnGhi";
             this.btnGhi.Size = new System.Drawing.Size(132, 53);
             this.btnGhi.TabIndex = 81;
-            this.btnGhi.Text = "Ghi";
+            this.btnGhi.Text = "Cập nhật";
             this.btnGhi.UseVisualStyleBackColor = true;
             this.btnGhi.Click += new System.EventHandler(this.btnGhi_Click);
             // 

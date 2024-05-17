@@ -97,6 +97,7 @@
             // 
             // txtTKDoi
             // 
+            this.txtTKDoi.BorderRadius = 10;
             this.txtTKDoi.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtTKDoi.DefaultText = "";
             this.txtTKDoi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -127,6 +128,7 @@
             // 
             // txtMKMoi
             // 
+            this.txtMKMoi.BorderRadius = 10;
             this.txtMKMoi.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtMKMoi.DefaultText = "";
             this.txtMKMoi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -157,6 +159,7 @@
             // 
             // txtMKCu
             // 
+            this.txtMKCu.BorderRadius = 10;
             this.txtMKCu.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtMKCu.DefaultText = "";
             this.txtMKCu.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));

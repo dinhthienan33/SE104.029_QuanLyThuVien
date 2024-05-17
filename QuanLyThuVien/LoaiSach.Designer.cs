@@ -137,7 +137,7 @@
             this.btnGhi.Name = "btnGhi";
             this.btnGhi.Size = new System.Drawing.Size(132, 53);
             this.btnGhi.TabIndex = 75;
-            this.btnGhi.Text = "Ghi";
+            this.btnGhi.Text = "Cập nhật";
             this.btnGhi.UseVisualStyleBackColor = true;
             this.btnGhi.Click += new System.EventHandler(this.btnGhi_Click);
             // 
@@ -272,6 +272,7 @@
             // 
             // txtLoaiSach
             // 
+            this.txtLoaiSach.BorderRadius = 10;
             this.txtLoaiSach.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtLoaiSach.DefaultText = "";
             this.txtLoaiSach.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -303,6 +304,7 @@
             // 
             // txtMaLoai
             // 
+            this.txtMaLoai.BorderRadius = 10;
             this.txtMaLoai.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtMaLoai.DefaultText = "";
             this.txtMaLoai.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -324,6 +326,7 @@
             // 
             // txtGhiChu
             // 
+            this.txtGhiChu.BorderRadius = 10;
             this.txtGhiChu.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtGhiChu.DefaultText = "";
             this.txtGhiChu.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -359,9 +362,9 @@
             this.groupBox1.Controls.Add(this.txtTimKiem);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(565, 107);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(395, 68);
             this.groupBox1.TabIndex = 79;
             this.groupBox1.TabStop = false;

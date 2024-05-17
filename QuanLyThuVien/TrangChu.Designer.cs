@@ -333,7 +333,7 @@
             // 
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(157, 522);
+            this.label33.Location = new System.Drawing.Point(54, 574);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(902, 140);
             this.label33.TabIndex = 60;
@@ -363,18 +363,19 @@
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(620, 320);
+            this.label36.Font = new System.Drawing.Font("Calibri", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(244, 315);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(180, 105);
+            this.label36.Size = new System.Drawing.Size(520, 205);
             this.label36.TabIndex = 57;
-            this.label36.Text = "Đinh Thiên Ân\r\nNguyên Khang\r\nQuốc An\r\n";
+            this.label36.Text = "Đinh Thiên Ân - 22520010\r\n\r\nTrương Quốc An - 2520034\r\n\r\nPhùng Vũ Nguyên Khang - 2" +
+    "2520626";
             // 
             // label37
             // 
             this.label37.AutoSize = true;
             this.label37.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(295, 320);
+            this.label37.Location = new System.Drawing.Point(64, 256);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(331, 35);
             this.label37.TabIndex = 56;
@@ -393,21 +394,21 @@
             // label39
             // 
             this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Calibri", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(389, 187);
+            this.label39.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Location = new System.Drawing.Point(527, 184);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(363, 40);
+            this.label39.Size = new System.Drawing.Size(442, 49);
             this.label39.TabIndex = 54;
             this.label39.Text = "Đề tài : Quản Lý Thư Viện";
             // 
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.ForeColor = System.Drawing.Color.Black;
-            this.label40.Location = new System.Drawing.Point(308, 118);
+            this.label40.Location = new System.Drawing.Point(315, 89);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(378, 49);
+            this.label40.Size = new System.Drawing.Size(565, 73);
             this.label40.TabIndex = 53;
             this.label40.Text = "Đồ Án CUỐI KỲ SE109";
             // 
@@ -2759,7 +2760,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.White;
+            this.label22.ForeColor = System.Drawing.Color.Transparent;
             this.label22.Location = new System.Drawing.Point(603, 11);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(449, 41);

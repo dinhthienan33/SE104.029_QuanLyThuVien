@@ -13,7 +13,7 @@ namespace QuanLyThuVien
 {
     public partial class LoaiSach : Form
     {
-        string Conn = "Data Source=DESKTOP-K5AA671\\SQLEXPRESS;Initial Catalog=QuanLyThuVienDB;Integrated Security=True";
+        string Conn = "Data Source=ESKTOP-K5AA671\\SQLEXPRESS;Initial Catalog=QuanLyThuVienDB;Integrated Security=True";
         SqlConnection mySqlconnection;
         SqlCommand mySqlCommand;
         int bien = 1;

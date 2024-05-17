@@ -94,7 +94,7 @@
             this.btnGhi.Name = "btnGhi";
             this.btnGhi.Size = new System.Drawing.Size(132, 53);
             this.btnGhi.TabIndex = 43;
-            this.btnGhi.Text = "Ghi";
+            this.btnGhi.Text = "Cập nhật";
             this.btnGhi.UseVisualStyleBackColor = true;
             this.btnGhi.Click += new System.EventHandler(this.btnGhi_Click);
             // 
@@ -218,6 +218,7 @@
             // 
             // txtGhiChu
             // 
+            this.txtGhiChu.BorderRadius = 10;
             this.txtGhiChu.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtGhiChu.DefaultText = "";
             this.txtGhiChu.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -249,6 +250,7 @@
             // 
             // txtTenTacGia
             // 
+            this.txtTenTacGia.BorderRadius = 10;
             this.txtTenTacGia.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtTenTacGia.DefaultText = "";
             this.txtTenTacGia.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -280,6 +282,7 @@
             // 
             // txtMaTacGia
             // 
+            this.txtMaTacGia.BorderRadius = 10;
             this.txtMaTacGia.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtMaTacGia.DefaultText = "";
             this.txtMaTacGia.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));

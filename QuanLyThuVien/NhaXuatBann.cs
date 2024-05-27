@@ -162,5 +162,20 @@ namespace QuanLyThuVien
             dt.Load(dr);
             dgvNXB.DataSource = dt;
         }
+
+        private void txtTenXB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMaXB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtGhiChu_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

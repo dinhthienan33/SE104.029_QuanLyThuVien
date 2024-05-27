@@ -249,7 +249,7 @@
             this.txtTenXB.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTenXB.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtTenXB.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTenXB.Location = new System.Drawing.Point(157, 262);
+            this.txtTenXB.Location = new System.Drawing.Point(151, 263);
             this.txtTenXB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTenXB.Name = "txtTenXB";
             this.txtTenXB.PasswordChar = '\0';
@@ -257,6 +257,7 @@
             this.txtTenXB.SelectedText = "";
             this.txtTenXB.Size = new System.Drawing.Size(239, 36);
             this.txtTenXB.TabIndex = 49;
+            this.txtTenXB.TextChanged += new System.EventHandler(this.txtTenXB_TextChanged);
             // 
             // label3
             // 
@@ -281,7 +282,7 @@
             this.txtMaXB.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMaXB.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtMaXB.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtMaXB.Location = new System.Drawing.Point(157, 203);
+            this.txtMaXB.Location = new System.Drawing.Point(151, 204);
             this.txtMaXB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMaXB.Name = "txtMaXB";
             this.txtMaXB.PasswordChar = '\0';
@@ -289,6 +290,7 @@
             this.txtMaXB.SelectedText = "";
             this.txtMaXB.Size = new System.Drawing.Size(239, 36);
             this.txtMaXB.TabIndex = 47;
+            this.txtMaXB.TextChanged += new System.EventHandler(this.txtMaXB_TextChanged);
             // 
             // label1
             // 
@@ -312,7 +314,7 @@
             this.txtGhiChu.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtGhiChu.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtGhiChu.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGhiChu.Location = new System.Drawing.Point(157, 320);
+            this.txtGhiChu.Location = new System.Drawing.Point(151, 321);
             this.txtGhiChu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtGhiChu.Name = "txtGhiChu";
             this.txtGhiChu.PasswordChar = '\0';
@@ -320,6 +322,7 @@
             this.txtGhiChu.SelectedText = "";
             this.txtGhiChu.Size = new System.Drawing.Size(239, 45);
             this.txtGhiChu.TabIndex = 51;
+            this.txtGhiChu.TextChanged += new System.EventHandler(this.txtGhiChu_TextChanged);
             // 
             // panel1
             // 

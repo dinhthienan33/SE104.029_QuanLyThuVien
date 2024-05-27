@@ -161,5 +161,10 @@ namespace QuanLyThuVien
             dt.Load(dr);
             dgvTacGia.DataSource = dt;
         }
+
+        private void dgvTacGia_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

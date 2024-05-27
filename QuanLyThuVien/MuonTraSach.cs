@@ -94,7 +94,6 @@ namespace QuanLyThuVien
             btnXoa.Enabled = !edit;
             btnGhi.Enabled = edit;
             btnHuy.Enabled = edit;
-            //.Enabled = edit;
 
             cbMaPhieuMuon.Enabled = edit;
             cbMaSach.Enabled = edit;

@@ -203,6 +203,7 @@
             this.dgvTacGia.ThemeStyle.RowsStyle.Height = 24;
             this.dgvTacGia.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvTacGia.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dgvTacGia.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTacGia_CellContentClick);
             this.dgvTacGia.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTacGia_RowEnter);
             // 
             // label5

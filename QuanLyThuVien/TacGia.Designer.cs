@@ -144,10 +144,10 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.DarkCyan;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 585);
+            this.panel2.Location = new System.Drawing.Point(0, 565);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1073, 12);
+            this.panel2.Size = new System.Drawing.Size(1073, 32);
             this.panel2.TabIndex = 39;
             // 
             // dgvTacGia

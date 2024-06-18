@@ -159,7 +159,7 @@ namespace QuanLyThuVien
             btnHuySV.Enabled = edit;
             //.Enabled = edit;
             
-            cbTenSach.Enabled = edit;
+            cbMaSach.Enabled = edit;
             cbNgayMuon.Enabled = edit;
             cbNgayTra.Enabled = edit;
             cbMaSV.Enabled = edit;
@@ -355,7 +355,7 @@ namespace QuanLyThuVien
             dt.Load(dr);
             dgvMuonSach.DataSource = dt;
 
-            txtMaPhieuMUon.Enabled = false;
+            txtMaPhieuMuon.Enabled = true;
             ttMaSach.Enabled = false;
             ttTenSach.Enabled = false;
             ttSoLuong.Enabled = false;
@@ -373,7 +373,7 @@ namespace QuanLyThuVien
             {
                 cbMaSV.Items.Add(dr[0].ToString());
             }
-            string sSql9 = "select TenSach from Sach";
+            string sSql9 = "select MaSach from Sach";
             mySqlCommand = new SqlCommand(sSql9, mySqlconnection);
             mySqlCommand.ExecuteNonQuery();
             DataTable dt9 = new DataTable();
@@ -381,13 +381,13 @@ namespace QuanLyThuVien
             da9.Fill(dt9);
             foreach (DataRow dr in dt9.Rows)
             {
-                cbTenSach.Items.Add(dr[0].ToString());
+                cbMaSach.Items.Add(dr[0].ToString());
             }
         }
 
-        private void cbTenSach_SelectedIndexChanged(object sender, EventArgs e)
+        private void cbMaSach_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string sSql1 = "select s.MaSach, s.TenSach, tg.TacGia, s.SoLuong from Sach s join TacGia tg on s.MaTacGia = tg.MaTacGia where s.TenSach = '" + cbTenSach.Text + "'";
+            string sSql1 = "select s.MaSach, s.TenSach, tg.TacGia, s.SoLuong from Sach s join TacGia tg on s.MaTacGia = tg.MaTacGia where s.MaSach = '" + cbMaSach.Text + "'";
             mySqlCommand = new SqlCommand(sSql1, mySqlconnection);
             mySqlCommand.ExecuteNonQuery();
             DataTable dt1 = new DataTable();
@@ -430,7 +430,7 @@ namespace QuanLyThuVien
         {
             //cb.Clear();
             //txtGhiChu.Clear();
-            cbTenSach.Focus();
+            cbMaSach.Focus();
             bien = 5;
             SetControls(true);
             //cbNgayMuon.Enabled = false;
@@ -443,8 +443,8 @@ namespace QuanLyThuVien
             bien = 6;
 
             SetControls(true);
-            txtMaPhieuMUon.Enabled = false;
-            cbTenSach.Enabled = false;
+            txtMaPhieuMuon.Enabled = false;
+            cbMaSach.Enabled = false;
             cbMaSV.Enabled = false;
             txtGhiChu.Enabled = false;
             cbNgayMuon.Enabled = false;
@@ -467,7 +467,7 @@ namespace QuanLyThuVien
         private void btnGhii_Click(object sender, EventArgs e)
         {
             int SoNgay;
-            string sSql2 = "SELECT DATEDIFF(day, GETDATE(),'" + cbNgayTra.Value + "')";
+            string sSql2 = "SELECT DATEDIFF(day, GETDATE(),'" + cbNgayTra.Value.ToString("yyyyMMdd") + "')";
             mySqlCommand = new SqlCommand(sSql2, mySqlconnection);
             mySqlCommand.ExecuteNonQuery();
             DataTable dt5 = new DataTable();
@@ -587,14 +587,14 @@ namespace QuanLyThuVien
         private void dgvMuonSach_RowEnter(object sender, DataGridViewCellEventArgs e)
         {
             int r = e.RowIndex;
-            txtMaPhieuMUon.Text = dgvMuonSach.Rows[r].Cells[0].Value.ToString();
-            cbTenSach.Text = dgvMuonSach.Rows[r].Cells[4].Value.ToString();
+            txtMaPhieuMuon.Text = dgvMuonSach.Rows[r].Cells[0].Value.ToString();
+            cbMaSach.Text = dgvMuonSach.Rows[r].Cells[4].Value.ToString();
             cbMaSV.Text = dgvMuonSach.Rows[r].Cells[1].Value.ToString();
             cbNgayMuon.Text = dgvMuonSach.Rows[r].Cells[5].Value.ToString();
             cbNgayTra.Text = dgvMuonSach.Rows[r].Cells[6].Value.ToString();
             txtGhiChu.Text = dgvMuonSach.Rows[r].Cells[7].Value.ToString();
 
-            string sSql1 = "select s.MaSach, s.TenSach, tg.TacGia, s.SoLuong from Sach s join TacGia tg on s.MaTacGia = tg.MaTacGia where s.TenSach = '" + cbTenSach.Text + "'";
+            string sSql1 = "select s.MaSach, s.TenSach, tg.TacGia, s.SoLuong from Sach s join TacGia tg on s.MaTacGia = tg.MaTacGia where s.TenSach = '" + cbMaSach.Text + "'";
             mySqlCommand = new SqlCommand(sSql1, mySqlconnection);
             mySqlCommand.ExecuteNonQuery();
             DataTable dt1 = new DataTable();
@@ -808,5 +808,6 @@ namespace QuanLyThuVien
             MessageBox.Show("Xoá thành công.", "Thông báo");
 
         }
+
     }
 }

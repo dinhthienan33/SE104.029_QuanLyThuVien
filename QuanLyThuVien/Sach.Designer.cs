@@ -582,11 +582,11 @@
         private Guna.UI2.WinForms.Guna2TextBox txtGiaBan;
         private Guna.UI2.WinForms.Guna2ComboBox cbTacGia;
         private Guna.UI2.WinForms.Guna2ComboBox cbNhaXB;
+        private Guna.UI2.WinForms.Guna2ComboBox cbLoaiSach;
         private Guna.UI2.WinForms.Guna2TextBox txtTimSach;
         private System.Windows.Forms.Label label9;
         private Guna.UI2.WinForms.Guna2TextBox txtSoTrang;
         private System.Windows.Forms.Label label10;
-        private Guna.UI2.WinForms.Guna2ComboBox cbLoaiSach;
         private System.Windows.Forms.Label label11;
         private Guna.UI2.WinForms.Guna2TextBox txtMaSach;
         private System.Windows.Forms.Button btnHuy;

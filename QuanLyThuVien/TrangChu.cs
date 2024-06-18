@@ -355,7 +355,7 @@ namespace QuanLyThuVien
             dt.Load(dr);
             dgvMuonSach.DataSource = dt;
 
-            txtMaPhieuMuon.Enabled = true;
+            txtMaPhieuMuon.Enabled = false;
             ttMaSach.Enabled = false;
             ttTenSach.Enabled = false;
             ttSoLuong.Enabled = false;

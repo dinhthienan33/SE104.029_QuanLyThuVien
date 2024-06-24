@@ -162,5 +162,15 @@ namespace QuanLyThuVien
             dt.Load(dr);
             dgvLoaiSach.DataSource = dt;
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMaLoai_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

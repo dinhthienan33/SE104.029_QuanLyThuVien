@@ -809,5 +809,9 @@ namespace QuanLyThuVien
 
         }
 
+        private void cbNgayTra_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

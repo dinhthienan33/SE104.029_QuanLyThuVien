@@ -323,6 +323,7 @@
             this.txtMaLoai.SelectedText = "";
             this.txtMaLoai.Size = new System.Drawing.Size(279, 36);
             this.txtMaLoai.TabIndex = 64;
+            this.txtMaLoai.TextChanged += new System.EventHandler(this.txtMaLoai_TextChanged);
             // 
             // txtGhiChu
             // 
@@ -369,6 +370,7 @@
             this.groupBox1.TabIndex = 79;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tìm Kiếm";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // LoaiSach
             // 
